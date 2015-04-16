@@ -74,8 +74,11 @@ fi
 brew cleanup
 
 # npm installs
-npm install -g gitjk
-sudo npm install -g cordova
-npm install phonegap -g
+# TODO: break out into an "node_npm.sh" script!
+npm install -g yo gitjk cordova phonegap less bower cordova-js cordova-lib
+npm install -g commander debug fs-extra grunt-cli gulp http-console
+npm install -g http-server jshint mkdirp request slush
+npm install -g slush-angular slush-backbone slush-bootstrap
+npm install -g slush-foundation slush-static-web
 
 exit 0

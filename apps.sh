@@ -48,6 +48,7 @@ dev=(
   sourcetree
   vagrant
   virtualbox
+  simpless
 )
 #  charles
 #  easyfind
